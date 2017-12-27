@@ -34,7 +34,7 @@ func main() {
 	fmt.Println("Context cancelled")
 
 	time.Sleep(time.Second * 2)
-	fmt.Println("ctx chk2:\t", ctx.Err())
-	fmt.Println("Goroutine chk:2\t", runtime.NumGoroutine())
+	fmt.Println("ctx chk3:\t", ctx.Err())
+	fmt.Println("Goroutine chk:3\t", runtime.NumGoroutine())
 
 }

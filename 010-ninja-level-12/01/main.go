@@ -17,4 +17,5 @@ func main() {
 		age:  dog.Years(10),
 	}
 	fmt.Println(fido)
+	fmt.Println(dog.YearsTwo(10))
 }

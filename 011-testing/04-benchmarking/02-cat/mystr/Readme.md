@@ -12,6 +12,10 @@ TestCat (t *testing.T)
 # commands
 
 ```
+godoc -http=:8080
+
+
+
 go test
 go test -bench
 go test -cover
